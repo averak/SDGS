@@ -1,6 +1,6 @@
 import uvicorn
 
-from controller import create_app
+from api.controller import create_app
 from config.api_config import ApiConfig
 
 app = create_app()

@@ -35,4 +35,4 @@ class BaseException(Exception):
         @return エラーコード
         """
 
-        return self.__error_code
+        return self.__error_code.value

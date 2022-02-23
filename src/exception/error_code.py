@@ -29,3 +29,8 @@ class ErrorCode(Enum):
     500 Internal Server Error: 1000~1999
     """
     UNEXPECTED_ERROR = Error(1000, "予期しないエラーが発生しました")
+
+    """
+    404 Not Found: 1100~1101
+    """
+    NOT_FOUND_API = Error(1100, "APIが見つかりません")
